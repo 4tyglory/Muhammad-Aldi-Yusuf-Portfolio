@@ -27,7 +27,7 @@ const Hero = () => {
         
         <div className="absolute inset-0 pointer-events-none hero-photo-container z-0">
           <img
-            className="absolute bottom-0 
+            className="hero-photo-edges absolute bottom-0 
               right-[-30vw] sm:right-[-18vw] md:right-[-12vw] xmd:right-[-8vw] lg:right-[-5vw] xl:right-[-2vw] 2xl:right-[3vw]
               h-[50vh] sm:h-[75vh] md:h-[70vh] lg:h-[75vh] xl:h-[80vh] 2xl:h-[85vh] object-cover"
             src="/fashn-export-1790255916870.png"
@@ -36,8 +36,8 @@ const Hero = () => {
         </div>
 
         <div
-          className={`absolute inset-0 sm:top-[120px] top-[100px] 
-          lg:top-[120px] xl:top-[150px] ${styles.paddingX} 
+          className={`absolute inset-0 sm:top-[250px] top-[150px] 
+          lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
           </div>
 
-          <div>
+          <div className="max-w-[80%] sm:max-w-[60%] lg:max-w-[50%]">
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               Hi, I'm{' '}
@@ -56,7 +56,7 @@ const Hero = () => {
                 Muhammad Aldi Yusuf
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className="mt-2 text-eerieBlack text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-medium leading-relaxed max-w-lg">
               Tech keeps changing. The people who stay useful are the ones who learn the tools instead of waiting for permission. That's the whole game.
             </p>
           </div>
