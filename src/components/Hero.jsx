@@ -27,7 +27,7 @@ const Hero = () => {
         
         <div className="absolute inset-0 pointer-events-none hero-photo-container z-0">
           <img
-            className="hero-photo-edges absolute bottom-0 
+            className="absolute bottom-0 
               right-[-30vw] sm:right-[-18vw] md:right-[-12vw] xmd:right-[-8vw] lg:right-[-5vw] xl:right-[-2vw] 2xl:right-[3vw]
               h-[50vh] sm:h-[75vh] md:h-[70vh] lg:h-[75vh] xl:h-[80vh] 2xl:h-[85vh] object-cover"
             src="/fashn-export-1790255916870.png"
@@ -36,8 +36,8 @@ const Hero = () => {
         </div>
 
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
-          lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
+          className={`absolute inset-0 sm:top-[120px] top-[100px] 
+          lg:top-[120px] xl:top-[150px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
